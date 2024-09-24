@@ -6,8 +6,11 @@ body, html {
     justify-content: center;  
     align-items: center;      
     font-family: 'Arial', sans-serif;
-    background: url("./background.MOV") repeat center center fixed; 
+    background-size: contain;
+    background: url(./Background.png) ;
+    background-position: center center;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .invitation {
