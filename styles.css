@@ -6,7 +6,7 @@ body, html {
     justify-content: center;  
     align-items: center;      
     font-family: 'Arial', sans-serif;
-    background: url('https://static.vecteezy.com/system/resources/previews/022/769/837/non_2x/beautiful-pink-rose-flower-frame-with-watercolor-for-wedding-birthday-card-background-invitation-wallpaper-sticker-decoration-etc-vector.jpg') no-repeat center center fixed; 
+    background: url("./background.MOV") repeat center center fixed; 
     background-size: cover;
 }
 
@@ -84,4 +84,17 @@ header h1, .details h2 {
 #playPauseBtn:active {
     background-color: #bf0040;
     transform: scale(0.98);  
+}
+.background{
+    height: 100%;
+    width: 100%;
+    float: left;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: none;
+    position: fixed;
+    object-fit: cover;
+    z-index: -1;
 }
