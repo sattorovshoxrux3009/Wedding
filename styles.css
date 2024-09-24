@@ -2,6 +2,9 @@
     font-family: NotoSans;
     src: url(./Montserrat.ttf);
 }
+*{
+     box-sizing: border-box;
+}
 body{
     height: 100%; 
     margin: 0;
@@ -36,7 +39,7 @@ html{
 .invitation {
     width: 100%;
     max-width: 500px;
-    margin: 20px auto; 
+    /* margin: 20px auto;  */
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.9); 
     color: #444;
