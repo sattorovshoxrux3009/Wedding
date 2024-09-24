@@ -1,4 +1,4 @@
-body, html {
+html {
     height: 100%; 
     margin: 0;
     padding: 0;
@@ -11,6 +11,13 @@ body, html {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+@media screen and (max-width:475px) {
+    html{
+        background: url(./Background_mobile.PNG);
+        background-position: center center;
+        background-size: cover;
+    }
 }
 
 .invitation {
