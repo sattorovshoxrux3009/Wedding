@@ -1,11 +1,23 @@
-html {
+@font-face {
+    font-family: NotoSans;
+    src: url(./Montserrat.ttf);
+}
+body{
     height: 100%; 
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;  
     align-items: center;      
-    font-family: 'Arial', sans-serif;
+}
+html{
+    height: 100%; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    font-family: NotoSans,'Arial', sans-serif;
     background-size: contain;
     background: url(./Background.png) ;
     background-position: center center;
@@ -17,13 +29,14 @@ html {
         background: url(./Background_mobile.PNG);
         background-position: center center;
         background-size: cover;
+    
     }
 }
 
 .invitation {
     width: 100%;
     max-width: 500px;
-    margin: 20px auto;  
+    margin: 20px auto; 
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.9); 
     color: #444;
@@ -45,7 +58,7 @@ header h1, .details h2 {
 
 .time {
     background: rgba(33, 202, 101, 0.9);  
-    padding: 10px 20px;
+    padding: 10px 10px;
     border-radius: 10px;
 }
 
