@@ -1,7 +1,3 @@
-@font-face {
-    font-family: NotoSans;
-    src: url(./Montserrat.ttf);
-}
 *{
      box-sizing: border-box;
 }
@@ -20,7 +16,7 @@ html{
     display: flex;
     justify-content: center;  
     align-items: center;      
-    font-family: NotoSans,'Arial', sans-serif;
+    font-family: monospace,'Arial', sans-serif;
     background-size: contain;
     background: url(./Background.png) ;
     background-position: center center;
