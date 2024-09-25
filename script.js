@@ -28,11 +28,9 @@ const playPauseBtn = document.getElementById('playPauseBtn');
 function togglePlayPause() {
     if (audioPlayer.paused) {
         audioPlayer.play();
-        video.play();
         playPauseBtn.textContent = 'Pause';
     } else {
         audioPlayer.pause();
-        video.pause();
         playPauseBtn.textContent = 'Play';
     }
 }
