@@ -34,3 +34,7 @@ function togglePlayPause() {
         playPauseBtn.textContent = 'Play';
     }
 }
+setTimeout(function() {
+    const video = document.getElementById('myVideo');
+    video.play();
+  }, 1000)
