@@ -27,14 +27,7 @@ html{
     background-size: cover;
     background-repeat: no-repeat;
 }
-@media screen and (max-width:475px) {
-    html{
-        background: url(./Background_mobile.PNG);
-        background-position: center center;
-        background-size: cover;
-    
-    }
-}
+
 
 .invitation {
     width: 100%;
@@ -124,4 +117,10 @@ header h1, .details h2 {
     position: fixed;
     object-fit: cover;
     z-index: -1;
+    display: none;
+}
+@media screen and (max-width:475px) {
+    .background{
+        display: block;
+    }
 }
