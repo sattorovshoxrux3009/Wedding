@@ -1,5 +1,5 @@
 const weddingDate = new Date('November 1, 2024 18:00:00').getTime();
-
+const video = document.getElementById('myVideo');
 function updateCountdown() {
     const now = new Date().getTime();
     const distance = weddingDate - now;
@@ -28,13 +28,11 @@ const playPauseBtn = document.getElementById('playPauseBtn');
 function togglePlayPause() {
     if (audioPlayer.paused) {
         audioPlayer.play();
+        video.play();
         playPauseBtn.textContent = 'Pause';
     } else {
         audioPlayer.pause();
+        video.pause();
         playPauseBtn.textContent = 'Play';
     }
 }
-setTimeout(function() {
-    const video = document.getElementById('myVideo');
-    video.play();
-  }, 1000)
